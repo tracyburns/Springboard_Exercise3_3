@@ -1,0 +1,51 @@
+Springboard Exercise 3.3 for:
+Project: Work on JSON based data exercises and submit on your Github
+
+Introduction:
+_____________
+The exercises contained in this repository relate to the Springboard Data Science Intensive Program.
+
+The 3.3_JSON_Exercise_Script.ipynb file reads in a JSON data file of projects funded by the World Bank. The aims of this exercise is to get familiar with packages for dealing with JSON and work on exercises dealing with JSON strings and files. The explicit outcomes are too read in and query the data file to:
+
+a) Find the 10 countries with most projects
+b) Find the top 10 major project themes (using column 'mjtheme_namecode')
+c) Some entries have only the code and the name is missing. Create a dataframe with the missing names filled in.
+
+
+Requirements:
+_____________
+This exercise requires python (I used jupyter notebook), and the following libraries: pandas and JSON. 
+For ease, I have used Anaconda as it provides access to all the necessary programs and libraries. For information on installing Anaconda and running jupyter see https://docs.continuum.io/anaconda/install
+
+
+Troubleshooting:
+________________
+NOTE REGARDING JUPYTER ON MAC OS: There appears to be a bug when running Jupyter through Anaconda on recent versions of MAC OS. When launching jupyter through terminal or through Anaconda the following error occurs:
+0:97: execution error: "http://localhost:8888/tree?token=55a1099f74a91b195298a36f29484519590836acf9c87405" doesn’t understand the “open location” message. (-1708)
+There may be a better solution but you can get around the error by pasting "http://localhost:8888/tree" into your browser and entering the token shown in terminal. Jupyter will now load successfully in your broswer. The next time you run jupyter, launch it as you would through anaconda or terminal, then ignore the error and type "http://localhost:8888"
+
+
+Configuration:
+______________
+There are no special configuration instructions, apart from ensuring that you have python and knowing that you need to import the PANDAS and JSON libraries. 
+
+
+Project Fiels and helpful documentation:
+________________________________________
+    1. Data File:
+        World Bank Projects Data file, taken from http://jsonstudio.com/resources/
+        http://jsonstudio.com/wp-content/uploads/2014/02/world_bank.zip
+
+    2. Project Instructions and Helpful Documentation:
+        sliderule_dsi_json_exercise.ipynb
+        http://pandas.pydata.org/pandas-docs/stable/io.html#json
+        https://www.dataquest.io/blog/python-json-tutorial/
+        https://dev.socrata.com/blog/2016/02/01/pandas-and-jupyter-notebook.html
+
+    3. Working File:
+        3.3_JSON_Exercise_Script.ipynb
+        
+Maintainer:
+___________
+
+Tracy Burns: 
