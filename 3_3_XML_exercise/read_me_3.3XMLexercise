@@ -16,7 +16,7 @@ name and country of a) longest river, b) largest lake and c) airport at highest 
 
 Requirements:
 _____________
-This exercise requires python (I used jupyter notebook), and ElementTree from the xml.etree 
+This exercise requires python (I used jupyter notebook), ElementTree from the xml.etree, pandas and numpy. 
 For ease, I have used Anaconda as it provides access to all the necessary programs and libraries. For information on installing Anaconda and running jupyter see https://docs.continuum.io/anaconda/install
 
 
@@ -32,7 +32,7 @@ ______________
 There are no special configuration instructions, apart from ensuring that you have python and knowing that you need to import the ElementTree from the xml.etree library. 
 
 
-Project Fiels and helpful documentation:
+Project Files and helpful documentation:
 ________________________________________
     1. Data File:
         http://www.dbis.informatik.uni-goettingen.de/Mondial
@@ -43,6 +43,8 @@ ________________________________________
 
     3. Working File:
         3.3_XML_Exercise_Script.ipynb
+        
+    4. More about the Mondial data: http://www.dbis.informatik.uni-goettingen.de/Mondial/mondial-RS.pdf
         
 Maintainer:
 ___________
